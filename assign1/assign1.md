@@ -9,6 +9,6 @@ In this assignment, you will learn how to set up qiskit environment and need to 
 ## n-qubit GHZ Circuit
 
 A n-qubit Greenberger–Horne–Zeilinger state (GHZ state) is the quantum state
-$$
+```math
 |GHZ\rangle_n = \frac{|0\rangle^n + |1\rangle ^n}{\sqrt{2}}
-$$
+```
