@@ -5,3 +5,10 @@ In this assignment, you will learn how to set up qiskit environment and need to 
 - Simulate a n-qubit GHZ circuit and get the measurement result in Qiskit. 
 - Get the unitary matrix of this circuit circuit.
 - Implement a teleportation circuit in Qiskit
+
+## n-qubit GHZ Circuit
+
+A n-qubit Greenberger–Horne–Zeilinger state (GHZ state) is the quantum state
+$$
+|GHZ\rangle_n = \frac{|0\rangle^n + |1\rangle ^n}{\sqrt{2}}
+$$
