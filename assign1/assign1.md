@@ -18,13 +18,16 @@ You are required to write a program `ghz.py` that generates a Qiskit circuit whi
 
 Your python program should take two command line arguements as input,
 ```shell
-python your_program <n> <output_filename>.csv
+python your_program <n> <output_filename>
 ```
 'n' is the number of qubit. You can assume `n` is an integer and `n>3`.
 
 ### Output
 
-Your program should generate a n-qubit Qiskit circuit which can generate the state $|GHZ\rangle_n$ from $|0\rangle^n$, and write its unitary matrix into a csv file "output_filename".
+Your program should generate a n-qubit Qiskit circuit which can generate the state $|GHZ\rangle_n$ from $|0\rangle^n$, and write its unitary matrix into a csv file "output_filename". Plese keep the decimal limit for each entry in the output matrix as 3. [Here](ghz3.csv) is an example output for `n=3`. You can use the python statement below to dump a NumPy array `matrix` into a csv file.
+```python
+numpy.savetxt(output_filename, matrix, delimiter=",", fmt = "%0.3f")
+```
 
 
 ## Quantum Teleportation
@@ -42,4 +45,4 @@ After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state
 - `ghz.py`
 - `teleporation.py`
 
-You should put your code in a single directory (named `LastName-FirstName-assign1`), compress it to .tar.gz (`LastName-FirstName-assign0.tar.gz`) and upload that to gradescope.
+Submit two files through the Gradescope. The GHZ assignment on the Gradescope will test your submission automatically.
