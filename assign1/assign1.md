@@ -48,7 +48,7 @@ After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state
 - `ghz.py`
 - `teleporation.py`
 
-Submit your two programs repectively to the Gradescope. Gradescope will test your submission automatically. You can try and resubmit until the due date (Mar 09, 2023 at 11:00:00 PM EST).
+Submit your two programs respectively to the Gradescope. Gradescope will test your submission automatically. You can resubmit until the due date (Mar 09, 2023 at 11:00:00 PM EST). But the auto-test works only once per 12 hours. We will manually grade the last version of your submissions if you do not get the full point from the auto-grader.
 
 ## Academic Integrity
 
