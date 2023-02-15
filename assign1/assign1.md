@@ -26,7 +26,7 @@ python your_program <n> <output_filename>
 
 ### Output
 
-Your program should generate a n-qubit Qiskit circuit which can generate the state $|GHZ\rangle_n$ from $|0\rangle^n$, and write its unitary matrix into a csv file "output_filename". Plese keep the decimal limit for each entry in the output matrix as 3. [Here](ghz3.csv) is an example output for `n=3`. You can use the python statement below to dump a NumPy array `matrix` into a csv file.
+Your program should generate a n-qubit circuit which can generate the state $|GHZ\rangle_n$ from $|0\rangle^n$, and write its unitary matrix into a csv file "output_filename". Plese keep the decimal limit for each entry in the output matrix as 3. [Here](ghz3.csv) is an example output for `n=3`. You can use the python statement below to dump a NumPy array `matrix` into a csv file.
 
 ```python
 numpy.savetxt(output_filename, matrix, delimiter=",", fmt = "%0.3f")
@@ -48,4 +48,4 @@ After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state
 - `ghz.py`
 - `teleporation.py`
 
-Submit your two programs repectively through the Gradescope. Gradescope will test your submission automatically. You can try and resubmit until the due date (Mar 09, 2023 at 11:00:00 PM EST).
+Submit your two programs repectively to the Gradescope. Gradescope will test your submission automatically. You can try and resubmit until the due date (Mar 09, 2023 at 11:00:00 PM EST).
