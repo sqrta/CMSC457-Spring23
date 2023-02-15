@@ -41,7 +41,7 @@ You are required to implement a one-qubit teleportation process from Alice to Bo
 2. Alice applies some operations on qubit $q_0,q_1$. His operation should include measurement and store the result in Qiskit classical register.
 3. Bob applies some operations one qubit $q_2$ based on the measurement result.
 
-After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state $|\phi\rangle$. Your program should be named as `teleportation.py`. You are provided with [starter code](teleportation.py) to handle input-output data. Your job is to finish the function `teleportation`.
+After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state $|\phi\rangle$. Your program should be named as `teleportation.py`. You are provided with [starter code](teleportation.py). Your job is to finish the function `teleportation`.
 
 ## What to Submit
 
