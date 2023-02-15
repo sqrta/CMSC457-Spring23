@@ -49,3 +49,11 @@ After these three steps, qubit $q_2$, the qubit Bob keeps, should have the state
 - `teleporation.py`
 
 Submit your two programs repectively to the Gradescope. Gradescope will test your submission automatically. You can try and resubmit until the due date (Mar 09, 2023 at 11:00:00 PM EST).
+
+## Academic Integrity
+
+Your submissions will be checked manually. The following are examples of academic integrity violations:
+
+- Hardcoding of results in an assignment. Hardcoding refers to attempting to make a program appear as if it works correctly (e.g., printing expected results for a test).
+- Hiring any online service to complete an assignment for you.
+- Sharing your code or your tests with any student.
