@@ -22,7 +22,7 @@ def teleportation():
     crz = ClassicalRegister(1, name="crz") # and 2 classical registers
     crx = ClassicalRegister(1, name="crx")
     qc = QuantumCircuit(qr, crz, crx)
-
+    qc.initialize(psi, qr[0])
     # Don't modify the code above
     ## Put your code below
     # ----------------------------
