@@ -48,7 +48,7 @@ def light_out_grover(lights, N):
 
     from qiskit import execute, Aer
     backend = Aer.get_backend('qasm_simulator')
-    job = execute(qc, backend=backend, shots=8000, seed_simulator=12345, backend_options={"fusion_enable":True})
+    job = execute(qc, backend=backend, shots=100, seed_simulator=12345, backend_options={"fusion_enable":True})
     result = job.result()
     count = result.get_counts()
 
