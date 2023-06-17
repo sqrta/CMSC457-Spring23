@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cp /autograder/submission/lightpuzzle.py /autograder/source
+cp /autograder/submission_metadata.json /autograder/source
+cd /autograder/source
+python3 testresult.py
